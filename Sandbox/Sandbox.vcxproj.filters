@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\mian.cpp">
+    <ClCompile Include="src\sandbox.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
