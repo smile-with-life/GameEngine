@@ -1,0 +1,3 @@
+[submodule "GameEngine/vendor/Quicklog"]
+	path = GameEngine/vendor/Quicklog
+	url = https://github.com/smile-with-life/QuickLog
