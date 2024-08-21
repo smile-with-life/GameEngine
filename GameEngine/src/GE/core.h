@@ -9,3 +9,5 @@
 #else
     #error GE only support Windows!
 #endif // GE_PLATFORM_WINDOWS
+
+#define BIT(x) (1 << x)

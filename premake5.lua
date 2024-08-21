@@ -26,13 +26,14 @@ project "GameEngine"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/Quicklog/include"
 	}
 	
 	filter "system:windows"
 		cppdialect "C++20"
 		staticruntime "On"
-		systemversion "10.0.22621.0"
+		systemversion "latest"
 		defines
 		{
 			"GE_PLATFORM_WINDOWS",
@@ -85,7 +86,7 @@ project "Sandbox"
 	filter "system:windows"
 		cppdialect "C++20"
 		staticruntime "On"
-		systemversion "10.0.22621.0"
+		systemversion "latest"
 		
 		defines
 		{
